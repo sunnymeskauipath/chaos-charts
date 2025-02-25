@@ -23,5 +23,5 @@ spec:
       email: sunny.meska@uipath.com
   minKubeVersion: 1.12.0
   icon:
-    - url: https://github.com/litmuschaos/chaos-charts/blob/master/faults/kubernetes/icons/uipath.png
+    - url: https://github.com/sunnymeskauipath/chaos-charts/blob/main/faults/kubernetes/icons/uipath.png
       mediatype: image/png
