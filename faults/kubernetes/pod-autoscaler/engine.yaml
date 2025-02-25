@@ -13,9 +13,9 @@ spec:
     appns: ''
     applabel: ''
     appkind: ''
-  chaosServiceAccount: pod-autoscaler-sa
+  chaosServiceAccount: aks-primary-failure-sa
   experiments:
-    - name: pod-autoscaler
+    - name: aks-primary-failure
       spec:
         components:
           env:

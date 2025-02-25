@@ -15,7 +15,7 @@ spec:
   faults:
     - name: pod-autoscaler
       description: It injects pod-autoscaler chaos in a Kubernetes pod.
-      displayName: "Pod Autoscaler"
+      displayName: "aks-primary-failure"
   keywords:
     - Kubernetes
   maintainers:

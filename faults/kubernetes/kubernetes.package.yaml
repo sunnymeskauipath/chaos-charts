@@ -1,6 +1,6 @@
 ---
 packageName: kubernetes
 faults:
-  - name: pod-autoscaler
-    CSV: pod-autoscaler.chartserviceversion.yaml
-    desc: "pod-autoscaler"
+  - name: aks-primary-failure
+    CSV: aks-primary-failure.chartserviceversion.yaml
+    desc: "aks-primary-failure"

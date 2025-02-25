@@ -5,9 +5,9 @@ description:
     Scale the application replicas and test the node autoscaling on cluster
 kind: ChaosExperiment
 metadata:
-  name: pod-autoscaler
+  name: aks-primary-failure
   labels:
-    name: pod-autoscaler
+    name: aks-primary-failure
     app.kubernetes.io/part-of: litmus
     app.kubernetes.io/component: chaosexperiment
     app.kubernetes.io/version: ci
@@ -79,7 +79,7 @@ spec:
         value: "false"
 
     labels:
-      name: pod-autoscaler
+      name: aks-primary-failure
       app.kubernetes.io/part-of: litmus
       app.kubernetes.io/component: experiment-job
       app.kubernetes.io/version: ci

@@ -2,13 +2,13 @@
 apiVersion: litmuschaos.io/v1alpha1
 kind: ChartServiceVersion
 metadata:
-  name: pod-autoscaler
+  name: aks-primary-failure
   version: 0.1.0
   annotations:
     categories: Kubernetes
     vendor: LitmusChaos
 spec:
-  displayName: Pod Autoscaler
+  displayName: aks-primary-failure
   categoryDescription: |
     This fault aims to check the ability of nodes to accommodate the number of replicas a given application pod.
     It can be used for other cases as well, such as for checking the Node auto-scaling feature. For example, check if the pods are successfully rescheduled within a specified period in cases where the existing nodes are already running at the specified limits.
