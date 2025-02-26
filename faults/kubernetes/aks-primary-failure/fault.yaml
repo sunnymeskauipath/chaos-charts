@@ -72,8 +72,8 @@ spec:
         value: ""
 
       # Number of replicas to scale
-      - name: REPLICA_COUNT
-        value: "0"
+      # - name: REPLICA_COUNT
+      #   value: "0"
 
       - name: DEFAULT_HEALTH_CHECK
         value: "false"
