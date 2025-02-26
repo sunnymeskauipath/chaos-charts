@@ -71,7 +71,7 @@ spec:
       - name: RAMP_TIME
         value: ""
 
-      Number of replicas to scale
+      # Number of replicas to scale
       - name: REPLICA_COUNT
         value: "0"
 
