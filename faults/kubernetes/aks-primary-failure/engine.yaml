@@ -24,6 +24,6 @@ spec:
               value: '60'
 
             # number of replicas to scale
-            - name: REPLICA_COUNT
-              value: '0'
+            # - name: REPLICA_COUNT
+            #   value: '0'
 
